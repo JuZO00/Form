@@ -138,6 +138,29 @@ textarea {
   outline: none;
   resize: none;
 }
+.service-item{
+  text-align: center;
+}
+.service-item::before{
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.service-item:nth-child(1)::before{
+  background-image: url(./img/Combined\ shape\ 134.png);
+}
+.service-item:nth-child(2)::before{
+  background-image: url(./img/Combined\ shape\ 132.png);
+}
+.service-item:nth-child(3)::before{
+  background-image: url(./img/Combined\ shape\ 130.png);
+}
 .button {
   display: block;
   margin: 0 auto;
